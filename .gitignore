@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+dist/
+.build/
+*.log
+*.zip
+*.bundle
+# Local-only media; never publish the song or test audio.
+/media/*
+!/media/README.md
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.mp4
+*.mov
+# The artist's raw inputs are local by default. ASCII outputs can be versioned.
+/assets/source/*
+!/assets/source/README.md
+.env
+.env.*
+*.pem
+*.key
+# Local test artifacts
+/test-results/
+/.pytest_cache/
