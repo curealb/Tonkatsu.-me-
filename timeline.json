@@ -1,0 +1,326 @@
+{
+  "title": "Tonkatsu.(me)",
+  "version": 1,
+  "duration": 211.906667,
+  "audio": "media/song.mp3",
+  "note": "按参考项目约 3:31.9 的音源版本编排。独白为本作原创二创文字，不是官方台词或原曲歌词；未用实际音源逐帧校准。",
+  "cues": [
+    {
+      "start": 0,
+      "end": 5.491,
+      "scene": "kitchen",
+      "title": "01 / 食欲系统启动",
+      "thought": "我只是检查一下……今天吃什么。",
+      "expression": "calm",
+      "params": {
+        "mode": "boot"
+      }
+    },
+    {
+      "start": 5.491,
+      "end": 10.091,
+      "scene": "kitchen",
+      "title": "02 / 创建炸猪排对象",
+      "thought": "面包糠，不要少。",
+      "expression": "calm",
+      "params": {
+        "mode": "coat"
+      }
+    },
+    {
+      "start": 10.091,
+      "end": 15.8,
+      "scene": "kitchen",
+      "title": "03 / 理想口感初始化",
+      "thought": "外面酥，里面软。这个参数不能妥协。",
+      "expression": "tempted",
+      "params": {
+        "mode": "heat"
+      }
+    },
+    {
+      "start": 15.8,
+      "end": 29.709,
+      "scene": "title",
+      "title": "04 / Tonkatsu.(me)",
+      "thought": "月村手毬眼中的炸猪排。",
+      "expression": "tempted",
+      "params": {}
+    },
+    {
+      "start": 29.709,
+      "end": 33.412,
+      "scene": "sensory",
+      "title": "05 / 每一个点都是面包糠",
+      "thought": "这种颗粒感……我看得出来。",
+      "expression": "tempted",
+      "params": {
+        "mode": "points"
+      }
+    },
+    {
+      "start": 33.412,
+      "end": 37.067,
+      "scene": "sensory",
+      "title": "06 / 盘子的圆周",
+      "thought": "盘子里的，都是我的吧？",
+      "expression": "tempted",
+      "params": {
+        "mode": "circle"
+      }
+    },
+    {
+      "start": 37.067,
+      "end": 40.706,
+      "scene": "sensory",
+      "title": "07 / 香气的正弦波",
+      "thought": "香味自己飘过来的，和我没关系。",
+      "expression": "tempted",
+      "params": {
+        "mode": "sine"
+      }
+    },
+    {
+      "start": 40.706,
+      "end": 44.452,
+      "scene": "sensory",
+      "title": "08 / 食欲没有上界",
+      "thought": "再一块。然后再一块。",
+      "expression": "tempted",
+      "params": {
+        "mode": "infinite"
+      }
+    },
+    {
+      "start": 44.452,
+      "end": 47.672,
+      "scene": "sensory",
+      "title": "09 / 油锅接通",
+      "thought": "这个声音，比提示音好听。",
+      "expression": "tempted",
+      "params": {
+        "mode": "fry"
+      }
+    },
+    {
+      "start": 47.672,
+      "end": 51.363,
+      "scene": "sensory",
+      "title": "10 / 酱汁轨道",
+      "thought": "少一点……不是猪排，是酱。",
+      "expression": "tempted",
+      "params": {
+        "mode": "sauce"
+      }
+    },
+    {
+      "start": 51.363,
+      "end": 55.083,
+      "scene": "sensory",
+      "title": "11 / 重播第一口",
+      "thought": "刚才那一口，能重来一次吗？",
+      "expression": "happy",
+      "params": {
+        "mode": "rewind"
+      }
+    },
+    {
+      "start": 55.083,
+      "end": 59.223,
+      "scene": "sensory",
+      "title": "12 / 配对成功",
+      "thought": "这不是偶然。我们很合适。",
+      "expression": "happy",
+      "params": {
+        "mode": "unite"
+      }
+    },
+    {
+      "start": 59.223,
+      "end": 66.601,
+      "scene": "happiness",
+      "title": "13 / 酥脆度与幸福度",
+      "thought": "嗯。这个口感，合格。",
+      "expression": "happy",
+      "params": {}
+    },
+    {
+      "start": 66.601,
+      "end": 70.084,
+      "scene": "happiness",
+      "title": "14 / 执行第一口",
+      "thought": "我开动了。",
+      "expression": "bite",
+      "params": {
+        "bite": true
+      }
+    },
+    {
+      "start": 70.084,
+      "end": 74.045,
+      "scene": "happiness",
+      "title": "15 / 被困在美味里",
+      "thought": "我只是还没吃完。",
+      "expression": "happy",
+      "params": {
+        "loop": true
+      }
+    },
+    {
+      "start": 74.045,
+      "end": 85.078,
+      "scene": "preferences",
+      "title": "16 / 配菜仍然存在",
+      "thought": "蔬菜我有看到。先看猪排。",
+      "expression": "calm",
+      "params": {
+        "mode": "sides"
+      }
+    },
+    {
+      "start": 85.078,
+      "end": 88.587,
+      "scene": "preferences",
+      "title": "17 / 确认唯一目标",
+      "thought": "刚刚的香味，就是你。",
+      "expression": "tempted",
+      "params": {
+        "mode": "focus"
+      }
+    },
+    {
+      "start": 88.587,
+      "end": 92.015,
+      "scene": "preferences",
+      "title": "18 / 表面冷静，后台失控",
+      "thought": "我没有一直盯着它。",
+      "expression": "calm",
+      "params": {
+        "mode": "deny"
+      }
+    },
+    {
+      "start": 92.015,
+      "end": 95.465,
+      "scene": "preferences",
+      "title": "19 / 时间单位：下一顿",
+      "thought": "上午也好，晚上也好。",
+      "expression": "tempted",
+      "params": {
+        "mode": "clock"
+      }
+    },
+    {
+      "start": 95.465,
+      "end": 99.349,
+      "scene": "preferences",
+      "title": "20 / 主导权切换",
+      "thought": "只是尝一下。不代表我输了。",
+      "expression": "calm",
+      "params": {
+        "mode": "deny"
+      }
+    },
+    {
+      "start": 99.349,
+      "end": 103.489,
+      "scene": "preferences",
+      "title": "21 / 香味占满缓存",
+      "thought": "……你刚才说什么？",
+      "expression": "tempted",
+      "params": {
+        "mode": "trance"
+      }
+    },
+    {
+      "start": 103.489,
+      "end": 110.9,
+      "scene": "heartbeat",
+      "title": "22 / 心跳与滋滋声同步",
+      "thought": "嗯，心情好了一点。",
+      "expression": "happy",
+      "params": {}
+    },
+    {
+      "start": 110.9,
+      "end": 118.333,
+      "scene": "separation",
+      "title": "23 / 盘子正在离开",
+      "thought": "等一下。我还没说可以拿走。",
+      "expression": "tempted",
+      "params": {}
+    },
+    {
+      "start": 118.333,
+      "end": 125.708,
+      "scene": "memory",
+      "title": "24 / 无法清除的酥脆记忆",
+      "thought": "没有在想。只是忘不掉。",
+      "expression": "tempted",
+      "params": {}
+    },
+    {
+      "start": 125.708,
+      "end": 147.66,
+      "scene": "exceptions",
+      "title": "25 / 自控程序抛出异常",
+      "thought": "“只吃一块”这个条件，写错了。",
+      "expression": "tempted",
+      "params": {}
+    },
+    {
+      "start": 147.66,
+      "end": 158.9,
+      "scene": "feast",
+      "title": "26 / 执行：咬下去",
+      "thought": "不解释了。我开动了。",
+      "expression": "bite",
+      "params": {}
+    },
+    {
+      "start": 158.9,
+      "end": 162.632,
+      "scene": "count",
+      "title": "27 / 份数计数溢出",
+      "thought": "一块、两块……为什么要数？",
+      "expression": "happy",
+      "params": {}
+    },
+    {
+      "start": 162.632,
+      "end": 177.246,
+      "scene": "obsession",
+      "title": "28 / 注意力只剩炸猪排",
+      "thought": "现在不要问我别的事。",
+      "expression": "tempted",
+      "params": {}
+    },
+    {
+      "start": 177.246,
+      "end": 188.483,
+      "scene": "love",
+      "title": "29 / 无法求解的喜欢",
+      "thought": "好吧。我就是喜欢。",
+      "expression": "happy",
+      "params": {}
+    },
+    {
+      "start": 188.483,
+      "end": 192.5,
+      "scene": "loop",
+      "title": "30 / 美味循环",
+      "thought": "这一口结束以后，还有下一口。",
+      "expression": "happy",
+      "params": {}
+    },
+    {
+      "start": 192.5,
+      "end": 211.906667,
+      "scene": "ending",
+      "title": "31 / 幸福停在 99%",
+      "thought": "还差一点。再来一块就好。",
+      "expression": "happy",
+      "params": {}
+    }
+  ]
+}

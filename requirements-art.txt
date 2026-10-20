@@ -1,0 +1,2 @@
+# Optional. Playback and snapshot rendering need only the Python standard library.
+Pillow>=10.0

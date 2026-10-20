@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Tonkatsu.(me) — 月村手毬眼中的炸猪排</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div><p class="eyebrow">A TEMARI FAN MV / ASCII EDITION</p><h1>Tonkatsu<span>.(me)</span></h1></div>
+    <div class="edition"><span class="status-dot"></span> WORK IN PROGRESS <b>v0.1</b></div>
+  </header>
+  <main>
+    <section class="theater" aria-label="播放器">
+      <div class="theater-top"><span>月村手毬眼中的炸猪排</span><span id="renderInfo">LOCAL RENDERER</span></div>
+      <div class="screen-wrap" id="screenWrap"><pre id="screen" role="img" aria-label="字符动画画面">INITIALIZING TONKATSU...</pre></div>
+      <div class="transport">
+        <div class="timebar"><output id="timeLabel">00:00.0</output><input id="seek" type="range" min="0" max="212" step="0.01" value="0" aria-label="播放进度"><output id="durationLabel">03:31.9</output></div>
+        <div class="actions">
+          <button id="play" class="primary" disabled>播放无声预览</button><button id="restart" title="从头播放">重播</button>
+          <label class="file-button">载入原曲<input id="audioFile" type="file" accept="audio/*,.mp3,.m4a,.wav,.flac"></label>
+          <button id="fullscreen">全屏</button>
+          <label class="volume">音量<input id="volume" type="range" min="0" max="1" step="0.01" value="0.75" aria-label="音量"></label>
+        </div>
+        <p id="audioStatus" class="status" role="status">无声分镜预览。载入你本地的 world.execute(me); 音频后，画面跟随音频时钟。</p>
+        <p id="error" class="error" role="alert" hidden></p>
+      </div>
+      <div class="options">
+        <label><input id="reduced" type="checkbox"> 减弱动态与干扰</label>
+        <label>画面偏移 <input id="offset" type="number" min="-60" max="60" step="0.1" value="0"> 秒</label>
+        <span>正值提前画面 · Space 暂停 · ← / → 跳转</span>
+      </div>
+      <p class="privacy">本地运行，不上传音频，不请求外部服务。文字为本作原创内心独白，不是原曲歌词或游戏官方台词。</p>
+    </section>
+    <aside>
+      <div class="panel-heading"><span>STORYBOARD</span><span id="cueCount">31 SCENES</span></div>
+      <h2>不是食物广告。<br>是她的脑内系统。</h2>
+      <p class="concept">表面冷静，后台的每一个进程，<br>都在请求下一块炸猪排。</p>
+      <div class="asset-note"><b>ART SLOTS / 占位稿</b><p>冷静 · 嘴馋 · 咬下 · 幸福<br>角色图等待你的绘制，替换后沿用动画。</p></div>
+      <nav id="chapters" aria-label="分镜跳转"></nav>
+    </aside>
+  </main>
+  <footer><span>01 — A VERY DELICIOUS EXCEPTION.</span><span>非官方同人项目 · 音乐与角色权利归原权利人</span></footer>
+  <audio id="audio" preload="metadata"></audio>
+  <script src="/app.js"></script>
+</body>
+</html>
