@@ -95,9 +95,18 @@ class FilmTests(unittest.TestCase):
             p=Path(td)/'timeline.json';p.write_text(json.dumps(data),encoding='utf-8')
             with self.assertRaises(ValueError): Timeline(p)
 
-    def test_placeholder_status_is_explicit(self):
-        self.assertEqual(self.film.art.status['temari_calm'],'placeholder')
-        self.assertIn('ART: PLACEHOLDER',self.film.render(69).plain())
+    def test_portrait_art_status_is_explicit(self):
+        with tempfile.TemporaryDirectory() as td:
+            directory=Path(td)/'ascii';directory.mkdir()
+            (directory/'temari_calm.txt').write_text('[ TEST PORTRAIT ]',encoding='utf-8')
+            film=Film()
+            for status,label in [('placeholder','ART: PLACEHOLDER'),('ready','ART: LOADED')]:
+                with self.subTest(status=status):
+                    (Path(td)/'manifest.json').write_text(
+                        json.dumps({'temari_calm':{'status':status}}),encoding='utf-8')
+                    film.art=Artwork(directory)
+                    self.assertEqual(film.art.status['temari_calm'],status)
+                    self.assertIn(label,film.render(0).plain())
 
     def test_ready_food_slot_replaces_procedural_food(self):
         film=Film()
