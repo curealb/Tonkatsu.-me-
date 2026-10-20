@@ -1,0 +1,1 @@
+AI-generated original sprite assets for this unofficial fan project. Artwork PNGs are intentionally tracked here. Local editable art files under assets/source remain ignored. Corresponding rendered ASCII art lives in assets/ascii.

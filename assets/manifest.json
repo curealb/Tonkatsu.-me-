@@ -1,44 +1,44 @@
 {
   "temari_calm": {
-    "status": "placeholder",
-    "source": "assets/source/temari_calm.png",
+    "status": "ready",
+    "source": "assets/generated/temari_calm.png",
     "ascii": "assets/ascii/temari_calm.txt",
     "columns": 40,
-    "description": "通用字符头像占位；不是最终手毬立绘"
+    "description": "AI-generated fan art; source PNG included"
   },
   "temari_tempted": {
-    "status": "placeholder",
-    "source": "assets/source/temari_tempted.png",
+    "status": "ready",
+    "source": "assets/generated/temari_tempted.png",
     "ascii": "assets/ascii/temari_tempted.txt",
     "columns": 40,
-    "description": "通用字符头像占位；不是最终手毬立绘"
+    "description": "AI-generated fan art; source PNG included"
   },
   "temari_bite": {
-    "status": "placeholder",
-    "source": "assets/source/temari_bite.png",
+    "status": "ready",
+    "source": "assets/generated/temari_bite.png",
     "ascii": "assets/ascii/temari_bite.txt",
     "columns": 40,
-    "description": "通用字符头像占位；不是最终手毬立绘"
+    "description": "AI-generated fan art; source PNG included"
   },
   "temari_happy": {
-    "status": "placeholder",
-    "source": "assets/source/temari_happy.png",
+    "status": "ready",
+    "source": "assets/generated/temari_happy.png",
     "ascii": "assets/ascii/temari_happy.txt",
     "columns": 40,
-    "description": "通用字符头像占位；不是最终手毬立绘"
+    "description": "AI-generated fan art; source PNG included"
   },
   "tonkatsu_hero": {
-    "status": "placeholder",
-    "source": "assets/source/tonkatsu_hero.png",
+    "status": "ready",
+    "source": "assets/generated/tonkatsu_hero.png",
     "ascii": "assets/ascii/tonkatsu_hero.txt",
     "columns": 42,
-    "description": "原始字符占位；正式食物图可替换"
+    "description": "AI-generated fan art; source PNG included"
   },
   "tonkatsu_slice": {
-    "status": "placeholder",
-    "source": "assets/source/tonkatsu_slice.png",
+    "status": "ready",
+    "source": "assets/generated/tonkatsu_slice.png",
     "ascii": "assets/ascii/tonkatsu_slice.txt",
     "columns": 42,
-    "description": "原始字符占位；正式食物图可替换"
+    "description": "AI-generated fan art; source PNG included"
   }
 }
