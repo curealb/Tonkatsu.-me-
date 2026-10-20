@@ -1,16 +1,67 @@
+# Tonkatsu.(me) — keep source code, timelines, docs and converted ASCII art in Git.
+# Ignore local music, working artwork, exports, caches and private settings.
+
+# Python bytecode, environments and local tooling
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
 venv/
-.DS_Store
-Thumbs.db
-dist/
-.build/
-*.log
+env/
+ENV/
+__pypackages__/
+.tox/
+.nox/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test, coverage, benchmark and browser-generated outputs
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+nosetests.xml
+/test-results/
+/playwright-report/
+/.playwright/
+
+# JS tooling, if the web preview is extended
+node_modules/
+.npm/
+.yarn/cache/
+.parcel-cache/
+.vite/
+
+# Builds, exports and distributable archives
+/dist/
+/build/
+/.build/
+/out/
+/output/
+/exports/
+/renders/
+*.pyz
+*.whl
+*.egg
 *.zip
-*.bundle
-# Local-only media; never publish the song or test audio.
-/media/*
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.dmg
+*.exe
+*.app/
+
+# Local audio, video and song-aligned lyric files (not licensed for distribution)
+/media/**
 !/media/README.md
 *.mp3
 *.wav
@@ -18,15 +69,84 @@ dist/
 *.flac
 *.ogg
 *.aac
+*.aif
+*.aiff
+*.opus
+*.wma
 *.mp4
 *.mov
-# The artist's raw inputs are local by default. ASCII outputs can be versioned.
-/assets/source/*
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.lrc
+*.srt
+*.ass
+
+# Original illustrations, editing projects and private references
+/assets/source/**
 !/assets/source/README.md
+*.psd
+*.psb
+*.clip
+*.kra
+*.ora
+*.procreate
+*.afdesign
+*.xcf
+*.blend
+*.blend[0-9]*
+*.aseprite
+/references/
+/reference/
+/drafts/
+/scratch/
+/screenshots/
+/recordings/
+/captures/
+/tmp/
+/temp/
+
+# Credentials and local environment configuration
 .env
 .env.*
+!.env.example
+!.env.sample
 *.pem
 *.key
-# Local test artifacts
-/test-results/
-/.pytest_cache/
+*.p12
+*.pfx
+*.mobileprovision
+*.token
+*.secret
+/credentials*.json
+/secrets*.json
+
+# Editor, OS, lock/swap and runtime litter
+.DS_Store
+._*
+.AppleDouble
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.fleet/
+.history/
+*.code-workspace
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+*.log
+*.pid
+*.sock
+*.sqlite3
+
+# KEEP versioned:
+# /assets/ascii/*.txt, /assets/manifest.json, /timeline.json,
+# /docs/*.md, /web/* and actual source/test/tool files.
